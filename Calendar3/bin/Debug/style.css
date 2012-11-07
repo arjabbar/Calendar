@@ -1,0 +1,26 @@
+html {
+	font-family: 'Source Code Pro', sans-serif;
+}
+
+h3, h1 {
+	color: black;
+	text-align: center;
+	text-decoration: underline;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 25px 25px 0 0;
+	width: 100%;
+	background-color: lightgrey;
+}
+
+.event {
+	border: solid 2px grey;
+	list-style-type: none;
+}
+
+p {
+	transition: all 1s;
+}
+
+p:hover {
+	border-bottom: inset 1px lightgrey;
+}
